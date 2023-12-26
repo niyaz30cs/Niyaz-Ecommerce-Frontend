@@ -1,0 +1,243 @@
+.section__padding {
+    padding: 4rem 4rem;
+}
+
+.footer {
+    background-image: linear-gradient(to right,teal,rgb(58, 112, 112),teal);
+    color: midnightblue;
+    width: 98.5vw;
+    position: relative;
+    left: 5px;
+    top: 30px;
+}
+
+.sb__footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.sb__footer-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.sb__footer-link_div {
+    width: 200px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.socialmedia img {
+    width: 80%;
+}
+
+.sb__footer-link_div h4 {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+}
+.sb__footer-link_div h2
+{
+    color: yellow;
+    font-weight: 700;
+}
+
+.sb__footer-link_div p {
+    font-size: 17px;
+    line-height: 15px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+.sb_footer-below {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.2rem;
+}
+
+.sb__footer-below-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.sb__footer-below-links p {
+    font-size: 15px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: yellow;
+    font-weight: 600;
+    margin: 10px;
+}
+
+hr {
+    color: white;
+    width: 100%;
+}
+
+.sb_footer-copyright p {
+    font-size: 18px;
+    line-height: 15px;
+    /* color: azure; */
+    color: yellow;
+    font-weight: 600;
+    margin: 10px;
+}
+
+
+.fotterSiren {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.the {
+    writing-mode: vertical-lr;
+    font-size: 20px;
+}
+
+.king {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.phoneSize {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    transform: rotate(0deg);
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.Nlogo {
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width:850px) {
+    .sb__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+   
+    
+
+}
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .footer{
+        position: relative;
+        width: 97vw;
+        left: -36px;
+    }
+}
+
+@media screen and (max-width:550) {
+    .sb__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .sb__footer-link div {
+        margin: 1rem 0;
+    }
+
+    .sb__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sb_footer-below {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .sb__footer-below-links {
+        flex-direction: column;
+    }
+
+    .sb__footer-below-links a {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .sb__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+
+    .sb__footer-below-links p {
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+
+    .sb_footer-below {
+        flex-direction: column;
+    }
+
+    .sb__footer-below-links {
+        display: flex;
+        flex-direction: column;
+    }
+    /* .footer{
+        width: 100vw;
+    } */
+}
+
+/*  */
+@media screen and (min-width: 280px) and (max-width: 700px) {
+    .footer{
+        position: relative;
+        left: 0px;
+        width: 99.7vw;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .footer{
+        /* position: relative;
+        left: -18px; */
+        display: none;
+    }
+}
+
+@media screen  and (min-width: 980px) and (max-width: 1230px){
+    .footer{
+        left: 5px;
+    }
+}
